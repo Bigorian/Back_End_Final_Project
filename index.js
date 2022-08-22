@@ -10,7 +10,7 @@ app.use('/users',usersRouter)
 
 const start= async ()=>{
     await mongoose.connect(
-        'mongodb+srv://m001-student:01478852@sandbox.ctkei.mongodb.net/',{dbName: "final_db_test"}
+        'mongodb+srv://:.ctkei.mongodb.net/',{dbName: "final_db_test"}
       );
 
     await app.listen(PORT,()=>{
